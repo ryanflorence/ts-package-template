@@ -1,0 +1,15 @@
+{
+  // enable vscode test runner
+  "nodejs-testing.extensions": [
+    {
+      "extensions": ["ts"],
+      "parameters": [
+        "--experimental-strip-types",
+        "--disable-warning=ExperimentalWarning"
+      ]
+    }
+  ],
+
+  // make sure you're using the local typescript
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

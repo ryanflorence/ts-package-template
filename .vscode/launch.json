@@ -1,0 +1,17 @@
+{
+  "version": "0.0.0",
+  "configurations": [
+    // enable a debugging session with F5 for current file
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug TypeScript",
+      "runtimeArgs": [
+        "--experimental-strip-types",
+        "--disable-warning=ExperimentalWarning"
+      ],
+      "program": "${file}",
+      "sourceMaps": true
+    }
+  ]
+}
