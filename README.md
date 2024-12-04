@@ -12,7 +12,7 @@ The simplest typescript package template I can think of.
 A simple script will set some values in package.json and rename files in src/ for your package name:
 
 ```sh
-pnpm setup <your user name> <your package name>
+node --experimental-strip-types scripts/setup.ts <your user name> <your package name>
 ```
 
 Or you can just edit package.json manually before you publish to npm.
