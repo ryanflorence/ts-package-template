@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "strict": true,
+
+    // node type stripping settings
+    // https://nodejs.org/api/typescript.html#type-stripping
+    "allowImportingTsExtensions": true,
+    "rewriteRelativeImportExtensions": true,
+    "verbatimModuleSyntax": true,
+    "target": "esnext",
+    "module": "NodeNext"
+  },
+
+  "include": ["src/**/*.ts"]
+}
